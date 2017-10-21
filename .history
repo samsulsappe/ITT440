@@ -1,0 +1,162 @@
+#+1505925167
+adduser
+#+1505925209
+exit
+#+1506299281
+adduser
+#+1506299338
+exit
+#+1507502328
+java -uv
+#+1507502493
+pkg search ^open jdk
+#+1507502654
+sudo pkg install openjdk
+#+1507502809
+freebsd-update fetch
+#+1507502874
+freebsd-update install
+#+1507502937
+java -version
+#+1507502955
+pkg search ^open jdk
+#+1507502967
+pkg search ^openjdk
+#+1507503065
+openjdk-7.80.15_1,1
+#+1507503065
+exit
+#+1507503090
+pkg install openjdk8
+#+1507504565
+java -version
+#+1507505057
+c -version
+#+1507505135
+gcc -version
+#+1507505161
+pkg install lang/gcc49
+#+1507505903
+gcc49 -version
+#+1507505919
+gcc -version
+#+1507505930
+gcc -version
+#+1507505948
+java -version
+#+1507508875
+exit
+#+1507513869
+ee
+#+1507514248
+ee
+#+1507514323
+exit
+#+1507514330
+ee
+#+1507514346
+exit
+#+1507674217
+ee
+#+1507674253
+ee
+#+1507674354
+ee
+#+1507676458
+ee
+#+1507676903
+javac server.java
+#+1507676921
+ee
+#+1507677760
+javac server.java
+#+1507677816
+ee server.java
+#+1507677849
+javac server.java
+#+1507677876
+ee server.java
+#+1507677924
+javac server.java
+#+1507677964
+ee server.java
+#+1507678002
+javac server.java
+#+1507678036
+ee server.java
+#+1507678066
+ee server.java
+#+1507678097
+javac server.java
+#+1507678110
+java serve
+#+1507678118
+java server
+#+1507678198
+javac client.java
+#+1507678214
+ee client.java
+#+1507678276
+ee client.java
+#+1507678315
+javac client.java
+#+1507678351
+ee client.java
+#+1507678389
+javac client.java
+#+1507678419
+ee client.java
+#+1507678459
+javac client.java
+#+1507678470
+java client
+#+1507678498
+java server
+#+1507678522
+java client
+#+1507678539
+java server
+#+1507680433
+ee
+#+1507680471
+ee
+#+1507680582
+ee
+#+1507681383
+cc client.c
+#+1507681445
+ee client.c
+#+1507681881
+cc client.c
+#+1507681957
+ee client.c
+#+1507682213
+cc client.c
+#+1507682225
+exit
+#+1508547534
+pkg install git
+#+1508547825
+exit
+#+1508559872
+ls
+#+1508559885
+git init
+#+1508559899
+git add .
+#+1508559915
+git commit -m "First commit"
+#+1508559939
+git config --global user.email "samdarosesmania96@gmail.com"
+#+1508559953
+git config --global user.name "samsulsappe"
+#+1508559986
+git remote add origin https://github.com/samsulsappe/ITT440.git
+#+1508559998
+git push origin master
+#+1508560043
+git remote -v
+#+1508560052
+git push origin master
+#+1508560088
+exit
